@@ -1,0 +1,101 @@
+footer {
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+footer .nav ul {
+    background-color: #f1ac2bef;
+    margin: 0;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    height: 78.4px;
+}
+
+.nav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 30px 30px 0 0;
+}
+
+.nav ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    border-radius: 0px 0px 0 0;
+    width: 1100px;
+}
+
+.nav ul li {
+    float: left;
+    float: bottom;
+}
+
+.nav ul li {
+    float: left;
+    width: 25%;
+}
+
+// footer {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	background-color:black;
+// 	font-size: 15px;
+// 	padding: 10px 0;
+// }
+
+// footer div {
+// 	color: white;
+// 	text-shadow: 5 5 10px grey ;
+// }
+
+// footer p {
+// 	color: white;
+// 	text-shadow: 5 5 10px grey ;
+// }
+
+// footer::after {
+// 	content: "";
+// 	clear: both;
+// 	display: table;
+// }
+
+// footer .left {
+// 	width: 25%;
+// 	float: left;
+// 	padding: 0 10px;
+
+// }
+
+// footer .number {
+// 	width: 25%;
+// 	float: left;
+// 	padding: 0 10px;
+
+// }
+
+// footer .ado {
+// 	width: 25%;
+// 	float: left;
+// 	padding: 0 10px;
+
+// }
+
+// footer .contact {
+// 	width: 25%;
+// 	float: left;
+// 	padding: 0 10px;
+
+// }
